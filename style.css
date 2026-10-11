@@ -2,6 +2,7 @@
     background-color: aliceblue;
     display: flex;
     justify-content: center;
+    box-sizing: border-box;
 }
 header{
     position: fixed;
@@ -108,17 +109,23 @@ img{
     top: 1850px;
 }
 body {
+    margin: 0;
     overfow-x: hidden;
+    background-color: aliceblue;
 }
 .image-container {
     display: flex;
+    flex-direction: row;
+    allign-items: center;
+    gap: 20px;
     flex-wrap: nowrap;
-    width: 100%;
+    width: 60%;
     min-width: 0;
     overflow-x: auto;
     overflow-y: hidden;
     scrollbar-width: thin;
     position: absolute;
     top: 650px;
+    left: 450px;
 }
 
